@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#192b2b" />
+    <meta
+      name="description"
+      content="Search and read the oral-history interviews of Linking Lost Jazz Shrines: the clubs, musicians and community of Brooklyn jazz, in the words of the people who were there."
+    />
+    <title>Linking Lost Jazz Shrines</title>
+    <link rel="icon" href="assets/lljs-icon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="data/corpus.js"></script>
+    <script defer src="data/themes.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#app">Skip to content</a>
+    <header class="masthead">
+      <div class="wrap mast-inner">
+        <a class="brand" href="#/"
+          ><img src="assets/lljs-icon.png" alt="" /><span>Linking Lost Jazz Shrines</span></a
+        >
+        <nav aria-label="Main navigation" id="nav">
+          <a href="#/" data-nav="search"><i data-icon="search"></i>Search</a>
+          <a href="#/interviews" data-nav="interviews"><i data-icon="mic"></i>Interviews</a>
+          <a href="#/entities" data-nav="entities"><i data-icon="people"></i>People &amp; places</a>
+          <a href="#/themes" data-nav="themes"><i data-icon="themes"></i>Themes</a>
+          <a href="#/about" data-nav="about"><i data-icon="book"></i>About</a>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap" id="app" tabindex="-1">
+      <noscript><p class="empty">This site needs JavaScript: the interviews are searched in your browser.</p></noscript>
+    </main>
+    <footer class="wrap foot">
+      <span>Linked Jazz <span class="slash">/</span> Linking Lost Jazz Shrines</span>
+      <span id="foot-built"></span>
+      <a href="https://base.semlab.io/wiki/Item:Q18807" target="_blank" rel="noreferrer"
+        >Semantic Lab Wikibase <i data-icon="external"></i
+      ></a>
+    </footer>
+    <div id="tip" class="tip" hidden></div>
+  </body>
+</html>

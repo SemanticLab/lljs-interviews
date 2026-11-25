@@ -1,0 +1,10 @@
+{
+  "note": "Hand-made grouping of the 29 clusters of the 2026-11-25 run, for the theme browser. Cluster numbers change whenever the passages or the clustering change; redo this file then.",
+  "groups": [
+    {"id": "clubs", "name": "Clubs and rooms", "colour": "#e4bc70", "clusters": [7, 17, 21, 12, 6, 24, 28, 9]},
+    {"id": "centres", "name": "Cultural centers and their audiences", "colour": "#e6a18c", "clusters": [4, 23, 3, 18]},
+    {"id": "people", "name": "People and their paths", "colour": "#89b9ae", "clusters": [0, 2, 22, 11, 14]},
+    {"id": "work", "name": "Work, money and teaching", "colour": "#b7a6e3", "clusters": [19, 15, 20, 16, 1, 5]},
+    {"id": "memory", "name": "Loss, memory and revival", "colour": "#8cc0ea", "clusters": [26, 25, 27, 10, 8, 13]}
+  ]
+}
